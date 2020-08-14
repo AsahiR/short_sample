@@ -42,6 +42,7 @@ public abstract class TConvergenceChecker {
 	public boolean check(TCMatrix now) {
 		fDelta.sub(now, fPrev);
 		fPrev.copyFrom(now);
+		//a
 
 		fVal = calcVal();
 
